@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="20" fill="#12182a"/>
+  <path d="M80 200 L200 80 L320 200 Z" fill="none" stroke="#4a9eff" stroke-width="4"/>
+  <circle cx="200" cy="160" r="40" fill="#e63956" opacity="0.8"/>
+  <text x="200" y="250" text-anchor="middle" fill="#f5c542" font-size="24" font-family="sans-serif">FREE</text>
+</svg>

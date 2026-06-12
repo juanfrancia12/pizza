@@ -8,6 +8,10 @@ import { FormField } from "@/common/components/molecules/FormField";
 export function RecoveryForm() {
   return (
     <form className="w-full">
+            <Link href="/" className="block text-red-400 mb-6 text-sm">
+        {`${'<- Volver'}`}
+        </Link>
+        
       <AuthFormHeader
         overline="Recuperación de acceso"
         title="Recuperar cuenta"

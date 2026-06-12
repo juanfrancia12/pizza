@@ -44,6 +44,8 @@ export function SplitAuthLayout({
         <div
           className={`flex w-full ${contentMaxWidth} min-h-[calc(100vh-3rem)] flex-col lg:min-h-[calc(100vh-4rem)] lg:flex-row`}
         >
+<div className="text-red-500">Volver</div>
+
           <div className="relative z-10 flex flex-1 items-center justify-center px-6 py-10 lg:max-w-[42%] lg:px-10 xl:px-12">
             {formPanel}
           </div>

@@ -8,6 +8,10 @@ import { FormField } from "@/common/components/molecules/FormField";
 export function LoginForm() {
   return (
     <form className="w-full max-w-md">
+      <Link href="/" className="block text-red-400 mb-6 text-sm">
+        {`${'<- Volver'}`}
+      </Link>
+
       <AuthFormHeader
         overline="Acceso a la flota"
         title="Inicio de sesión"

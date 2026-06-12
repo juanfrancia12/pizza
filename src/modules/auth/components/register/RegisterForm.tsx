@@ -18,11 +18,16 @@ export function RegisterForm() {
 
   return (
     <form className="w-full max-w-md" onSubmit={handleSubmit}>
+        <Link href="/" className="block text-red-400 mb-6 text-sm">
+        {`${'<- Volver'}`}
+        </Link>
+
       <AuthFormHeader
         overline="Unirse a la flota"
         title="Registro de Recluta"
         description="Ingresa tus credenciales intergalácticas para acceder al centro de operaciones de City Pizza Galactic."
       />
+
 
       <div className="animate-fade-in-up animate-duration-normal animate-fill-mode-both animate-delay-100 space-y-5">
         <FormField label="Nombre completo" htmlFor="fullName">

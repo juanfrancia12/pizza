@@ -1,0 +1,47 @@
+import type { Product } from "@/common/interfaces/product";
+
+export const featuredProducts: Product[] = [
+  {
+    id: "mexicana",
+    name: "Mexicana",
+    description: "Jalapeños, pepperoni, salsa chipotle y queso fundido.",
+    price: 11,
+    imageSrc: "/images/products/pizza-1.svg",
+    imageAlt: "Pizza Mexicana",
+    badge: "Top ventas",
+    rating: 4.9,
+    reviews: 312,
+  },
+  {
+    id: "pepperoni",
+    name: "Pepperoni Galáctica",
+    description: "Doble pepperoni, mozzarella y orégano orbital.",
+    price: 12.5,
+    imageSrc: "/images/products/pizza-2.svg",
+    imageAlt: "Pizza Pepperoni Galáctica",
+    rating: 4.8,
+    reviews: 428,
+  },
+  {
+    id: "hawaiana",
+    name: "Hawaiana",
+    description: "Jamón, piña caramelizada y extra queso.",
+    price: 11.5,
+    imageSrc: "/images/products/pizza-3.svg",
+    imageAlt: "Pizza Hawaiana",
+    badge: "Favorita",
+    rating: 4.7,
+    reviews: 198,
+  },
+  {
+    id: "vegetariana",
+    name: "Vegetariana",
+    description: "Champiñones, pimientos, aceitunas y tomate fresco.",
+    price: 10.5,
+    imageSrc: "/images/products/pizza-4.svg",
+    imageAlt: "Pizza Vegetariana",
+    badge: "Veggie",
+    rating: 4.6,
+    reviews: 156,
+  },
+];
